@@ -26,6 +26,8 @@ TARGET_LINK_LIBRARIES(test_mapcollection octomap octomath)
 ADD_EXECUTABLE(test_pruning test_pruning.cpp)
 TARGET_LINK_LIBRARIES(test_pruning octomap octomath)
 
+ADD_EXECUTABLE(test_eism test_eism.cpp)
+TARGET_LINK_LIBRARIES(test_eism octomap octomath)
 
 # CTest tests below
 
